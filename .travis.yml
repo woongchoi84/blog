@@ -8,4 +8,4 @@ deploy:
   gem: jekyll-dash
   on:
     tags: true
-    repo: woongchoi84/woongchoi84.github.io
+    repo: woongchoi84/blog
