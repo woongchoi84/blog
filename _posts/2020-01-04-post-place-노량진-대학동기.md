@@ -7,14 +7,14 @@ description: "Happy New Year, 2020!"
 
 ![](https://cdn.pixabay.com/photo/2019/12/25/16/49/happy-new-year-4718894_1280.png)
 
-
 노량진에서 대학동기들과 신년회로 방문한 장소!
 
 근처 고깃집 ([다독이네 숯불구이](https://www.google.com/maps/place/%EB%8B%A4%EB%8F%85%EC%9D%B4%EB%84%A4%EC%88%AF%EB%B6%88%EA%B5%AC%EC%9D%B4/@37.5129241,126.9377834,17z/data=!4m12!1m6!3m5!1s0x357c9f6be08568ff:0x7d22298620555320!2z64uk64-F7J2064Sk7Iiv67aI6rWs7J20!8m2!3d37.5129241!4d126.9377834!3m4!1s0x357c9f6be08568ff:0x7d22298620555320!8m2!3d37.5129241!4d126.9377834?hl=ko)) 웨이팅이 길어,
-
 대충 골라간 집인데 나쁘지 않았다.
 
-# 1차 새우네집
+## .
+
+### 1차 새우네집
 ---
 
 [새우네집](https://www.google.com/maps/place/%EC%83%88%EC%9A%B0%EB%84%A4%EC%A7%91/@37.5125316,126.9326942,17.25z/data=!4m5!3m4!1s0x357c9f6c878756cf:0x97978e96c6419265!8m2!3d37.5123434!4d126.9353141?hl=ko)
@@ -35,8 +35,9 @@ description: "Happy New Year, 2020!"
 
 위 링크 우측 상단에 있는 허옇고 누런 양파(?) 튀김이 꼬숩다.
 
+## .
 
-# 2차 만주양꼬치
+### 2차 만주양꼬치
 ---
 
 [만주양꼬치](https://www.google.com/maps/place/%EB%A7%8C%EC%A3%BC%EA%BC%AC%EC%B9%98%EA%B5%AC%EC%9D%B4%EC%A7%91/@37.5125315,126.930142,16z/data=!4m8!1m2!2m1!1z66eM7KO87JaR6rys7LmY!3m4!1s0x357c9f69484b53a1:0x52a3152d91dc080c!8m2!3d37.5105048!4d126.939939?hl=ko)

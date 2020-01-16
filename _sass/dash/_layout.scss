@@ -1,7 +1,6 @@
 .site-header {
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
-
   // Positioning context for the mobile navigation icon
   position: relative;
 
@@ -11,7 +10,7 @@
   }
 
   .command_prompt {
-    color: $color-blue;
+    color: $color-black;
     font-size: $base-font-size;
 
     svg {
@@ -29,8 +28,9 @@
 }
 
 .site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
+  font-family: "NanumSquareEB";
+  @include relative-font-size(1.825);
+  font-weight: 400;
   margin-bottom: 0;
   float: left;
 
@@ -64,6 +64,7 @@
    margin-bottom: 1em;
    text-align: left;
    min-height: 72px;
+   font-family: "NanumSquare";
    font-style: italic;
    & > .author-avatar {
      float: left;
@@ -81,22 +82,24 @@
 
 
 .post-title {
+   font-family: "NanumSquareEB";
     @include themed() {
-       color: t('foreground-color');
+       color: $color-red;
     }
     text-align: left;
 }
 
 .post-description {
   margin-top: 1em;
-  font-size: $base-font-size * 1.15;
+  font-family: "NanumSquareB";
+  font-size: $base-font-size;
   @include themed() {
-     color: t('foreground-color');
+     color: $color-blue;
   }
   white-space: nowrap;
   overflow: hidden;
   width: 100%;
-  animation: type 2s steps(60, end);
+  animation: type 3s steps(60, end);
   margin-bottom: 1em;
 
   & > svg {
@@ -124,6 +127,7 @@
     @include themed() {
        color: t('foreground-color-alt');
     }
+    font-family: "NanumSquare";
     font-size: 12px;
     margin-top: 1em;
     margin-left: 0.5em;
@@ -141,19 +145,18 @@
   }
 
   ol > li {
-    margin-left: 1em;
+    margin-left: 0.5em;
     text-align: left;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.3em;
   }
 
   ul > li {
+    margin-left: 0.5em;
     text-align: left;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.3em;
     @include themed() {
        color: t('list-primary');
     }
-    list-style: none;
-    margin-left: 0;
 
     svg {
       @include themed() {
@@ -174,12 +177,14 @@
     margin-left: 0.5em;
   }
 
-
-
   & > blockquote {
-    margin-top: 2em;
-    margin-bottom: 1em;
-    margin-left: 0.5em;
+    width: 97.8%;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.1em;
+    font-family: "Nanum Myeongjo";
+    font-weight: 700;
+    font-size: $base-font-size;
     font-style: italic;
     @include themed() {
        color: t('quote-primary');
@@ -222,8 +227,10 @@
 }
 
 .post-link-wrapper {
+   font-family: "NanumSquareEB";
    margin-bottom: 1.1em;
    & > .post-link {
+     font-family: "NanumSquareEB";
      font-size: $base-font-size;
      font-size: $post-link-font-size;
    }
@@ -246,17 +253,20 @@
  }
 
 .tag, .tag-cloud > a {
-  color: $color-green;
+  font-family: "NanumSquareB";
+  font-size: $small-font-size;
+  color: $color-tag;
   @include themed() {
      background-color: t('background-color');
   }
   padding: 0.3em 0.6em;
   border-radius: 0.3em;
   &:hover {
+  	font-family: "NanumSquareB";
     text-decoration: none;
-    color: lighten($color-green, 20%) !important;
+    color: lighten($color-tag, 20%) !important;
     @include themed() {
-       background-color: lighten(t('background-color'), 5%);
+       background-color: $color-white;
     }
   }
 
@@ -290,7 +300,8 @@
 }
 
 .pagination {
-  font-size: $post-link-font-size;
+  font-size: $base-font-size;
+  font-family: "NanumSquareB";
   margin: 1em 0;
   & > a, & > span {
     font-weight: normal;
@@ -300,8 +311,10 @@
     padding: 0.3em 0.6em;
     border-radius: 0.3em;
     text-align: center;
+  	font-family: "NanumSquareB";
 
     &:hover {
+  	  font-family: "NanumSquareB";
       text-decoration: none;
     }
 
@@ -311,14 +324,14 @@
   }
 
   & > a {
-    color: $color-green;
+    color: $color-white;
     @include themed() {
        background-color: t('background-color');
     }
     &:hover {
-      color: lighten($color-green, 20%);
+      color: $color-tag;
       @include themed() {
-         background-color: lighten(t('background-color'), 5%);
+         background-color: $color-white;
       }
     }
   }
@@ -346,7 +359,6 @@
 }
 
 ul.related-posts {
-
     margin: 0;
     margin-left: 1em;
     padding: 0;
@@ -356,13 +368,16 @@ ul.related-posts {
     margin-left: 0;
 
     a {
+  	  font-family: "NanumSquareB";
       display: inline-block;
-      padding-top: 0.5em;
-      padding-bottom: 0.5em;
+      padding-top: 0.0em;
+      padding-bottom: 0.0em;
     }
     h3 {
       display: inline-block;
       margin: 0;
+      margin-top: -00px;
+      margin-bottom: -00px;
     }
 
     & > svg.svg-inline--fa {

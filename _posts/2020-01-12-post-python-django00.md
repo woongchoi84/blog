@@ -6,10 +6,10 @@ tags: Python Crawling
 
 ![](https://cdn.pixabay.com/photo/2014/05/07/15/19/django-339744_1280.png)
 
-# Django(장고) 설치 및 초기 설정
+### Django(장고) 설치 및 초기 설정
 ---
 
-## django 설치 (WSL 기준, Ubuntu로 봐도 무방할듯)
+- django 설치 (WSL 기준, Ubuntu로 봐도 무방할듯)
 
 ```console
 $>sudo pip3 install django 
@@ -18,13 +18,13 @@ $>sudo pip3 install django
 의외로 시간이 좀 걸린다.
 
 
-## 새 프로젝트 만들기
-
-### main 이라는 프로젝트 생성 (이름은 정하기 나름!)
+- 새 프로젝트 만들기
 
 ```console
 $>django-admin startproject main
 ```
+
+main 이라는 프로젝트 생성 (이름은 정하기 나름!)
 
 아래와 같은 Tree 구조의 폴더가 생성된다.
 
@@ -38,7 +38,7 @@ $>django-admin startproject main
 └── manage.py
 ```
 
-## App 생성
+- App 생성
 
 `manage.py` 가 있는 main 폴더에서 다음 명령어 실행
 
@@ -48,9 +48,9 @@ $>python3 manage.py startapp timeline
 
 `timeline`이라는 이름도 정하기 나름이다.
 
-## 설정 파일 변경
+- 설정 파일 변경
 
-### 'main/main/setting.py' 수정
+`main/main/setting.py` 수정
 
 ```python
 INSTALLED_APPS = [
@@ -75,7 +75,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static') # 맨 아래에 해당 문구 추
 위와 같이 주석이 달린 부분을 수정하자!
 
 
-## 모델 (timeline/model.py) 수정
+- 모델 (timeline/model.py) 수정
 
 ```python
 from django.db import models
@@ -91,18 +91,18 @@ class Post(models.Model):
 		return self.title
 ```
 
-## 모델이 변경되었음을 알리자
+- 모델이 변경되었음을 알리자
 
-### Migration 실행
+Migration 실행
 
 ```console
 $>python3 manage.py makemigrations timeline
 $>python3 manage.py migrate
 ```
 
-## 관리자 계정 추가
+- 관리자 계정 추가
 
-### 'blog/admin.py' 파일 수정
+`blog/admin.py` 파일 수정
 
 ```python
 from django.contrib import admin
@@ -111,7 +111,7 @@ from.models import Post
 admin.site.register(Post)
 ```
 
-admin 계정 생성
+- `admin` 계정 생성
 
 ```console
 python3 manage.py createsuperuser
@@ -124,9 +124,9 @@ python3 manage.py runserver
 
 
 
-## 관리자 계정으로 새로운 포스트 작성
+- 관리자 계정으로 새로운 포스트 작성
 
-### 'http://127.0.0.1:8000/admin' 접속
+`http://127.0.0.1:8000/admin` 접속
 
 접속해서 Post 메뉴에서 새로운 Post를 추가해본다.
 
@@ -136,9 +136,9 @@ python3 manage.py runserver
 
 
 
-## 메인 페이지 접속 시 반응하도록 수정
+- 메인 페이지 접속 시 반응하도록 수정
 
-### 'main/urls.py' 수정
+`main/urls.py` 수정
 
 ```python
 from django.contrib import admin
@@ -150,7 +150,7 @@ urlpatterns = [
 ]
 ```
 
-### timeline/urls.py 생성
+- timeline/urls.py 생성
 
 ```python
 from django.urls import path
@@ -161,7 +161,7 @@ urlpatterns = [
 ]
 ```
 
-### timeline/views.py 수정
+- timeline/views.py 수정
 
 ```python
 from django.shortcuts import render
@@ -173,11 +173,11 @@ def post_list(request):
     return render(request, 'timeline/post_list.html',{ 'posts':posts })
 ```
 
-### timeline/templates/timeline/post_list.html 생성
+`timeline/templates/timeline/post_list.html` 생성
 
 [만들어둔 링크](https://github.com/woongchoi84/django/blob/master/blog/templates/blog/post_list.html)와 같이 수정
 
-## [블루프린트 - 타임라인](https://github.com/codrops/Blueprint-VerticalTimeline) 가져오기
+- [블루프린트 - 타임라인](https://github.com/codrops/Blueprint-VerticalTimeline) 가져오기
 
 ```console
 cd timeline
@@ -186,12 +186,12 @@ cd static
 git clone https://github.com/codrops/Blueprint-VerticalTimeline.git .
 ```
 
-## 페이지 확인
+- 페이지 확인
 
 ```console
 python3 manage.py runserver
 ```
-http://127.0.0.1:8000/
+<http://127.0.0.1:8000/>
 
 접속해보면 아래와 같이 나오는 것을 확인 할 수 있다.
 

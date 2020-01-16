@@ -5,15 +5,12 @@ tags: Place
 description: "[막걸리 찬가]가 생각나네"
 ---
 
-![](https://cdn.pixabay.com/photo/2017/04/26/23/46/morning-2264051_1280.jpg)
-
-
-# 1차 안래홍
+### 1차 안래홍
 ---
 
 [안래홍 위치 정보](https://www.google.com/maps/place/%EC%95%88%EB%9E%98%ED%99%8D/@37.5716732,126.9804138,17z/data=!3m1!4b1!4m5!3m4!1s0x357ca2e90a0628db:0x924e616cc2e9b0db!8m2!3d37.5716732!4d126.9826078?hl=ko)
 
-## 간짜장 + 짬뽕밥 + 처음처럼 조합
+- 간짜장 + 짬뽕밥 + 처음처럼 조합
 
 원래 비도오고 적적해서 
 
@@ -34,10 +31,12 @@ description: "[막걸리 찬가]가 생각나네"
 
 [안래홍 짬뽕 사진 (데스크탑 기준)](https://www.google.com/maps/place/%EC%95%88%EB%9E%98%ED%99%8D/@37.5717208,126.9825156,3a,75y/data=!3m8!1e2!3m6!1sAF1QipM09eIdeEWPphivrlpenpknNvNsxSI6d0ZfrRI-!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM09eIdeEWPphivrlpenpknNvNsxSI6d0ZfrRI-%3Dw203-h360-k-no!7i2592!8i4608!4m5!3m4!1s0x357ca2e90a0628db:0x924e616cc2e9b0db!8m2!3d37.5716732!4d126.9826078?hl=ko)
 
-# 2차 열차집
+## .
+
+### 2차 열차집
 ---
 
-## 모듬전 + 소백산 대강 + 고양 배다리
+- 모듬전 + 소백산 대강 + 고양 배다리
 
 [열차집 위치 정보](https://www.google.com/maps/place/%EC%97%B4%EC%B0%A8%EC%A7%91/@37.5716627,126.980574,17z/data=!3m1!4b1!4m5!3m4!1s0x357ca2e9a76e1fe1:0x5f750104f7d9ebf8!8m2!3d37.5716627!4d126.982768?hl=ko)
 

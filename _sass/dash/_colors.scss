@@ -8,9 +8,8 @@ $color-background-lighter: lighten($color-background-light, 7%);
 $color-foreground-dark: #1E2227;
 $color-foreground-darker: #15171A;
 
-$color-ulist: #ADE0B9;
 $color-white: #FFFFFF;
-$color-gray:  #808b96;
+$color-gray:  #F2F2F2;
 $color-pink: #F24784;
 $color-red: #FC4957;
 $color-orange: #EA9D53;
@@ -18,9 +17,16 @@ $color-yellow: #FCBC28;
 $color-teal: #4BC997;
 $color-green: #50BD6A;
 $color-cyan: #4FC1E4;
-$color-blue: #637AFE;
+$color-blue: #0070C0;
 $color-indigo: #6775C4;
 $color-purple: #8E59D7;
+$color-black: #000000;
+
+$color-quote: $color-black;
+$color-list: $color-black;
+$color-code: $color-black;
+$color-background-code:  #d5d8dc ;
+$color-tag: $color-black;
 
 .color-pink { color: $color-pink !important; }
 .color-red { color: $color-red !important; }

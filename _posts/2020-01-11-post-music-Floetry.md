@@ -6,39 +6,37 @@ tags: Music
 
 ![](https://i.ytimg.com/vi/pkb2mvw1Hcw/hqdefault.jpg)
 
-# 플로트리 (Floetry)
+## .
+
+### 플로트리 (Floetry)
 
 ---
 
 라이브가 앨범이랑 동일할 정도로 잘한다. 
-
 원래 이런 장르의 음악은 잘 안들었는데,
-
 네오소울(?) 머시기로 불리는듯하다.
-
----
 
 이 듀오는 영국 런던의 농구장에서 1994년경에 만났다고 한다.
 
-# Favorite Songs
+## .
 
-## 1. Floetry - It's Getting Late
+### Favorite Songs
+---
+
+1. Floetry - It's Getting Late
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HdW5GRjusWc" frameborder="0" allowfullscreen></iframe>
-
----
 
 가사는 길어서 링크로 남긴다.
 
 [가사 링크](https://genius.com/Floetry-getting-late-lyrics)
 
----
 
-## 2. Floetry - Butterflies
+2. Floetry - Butterflies
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CAj2ZSmShCU" frameborder="0" allowfullscreen></iframe>
 
-### 매력적인 누나들이다.
+- 매력적인 누나들이다.
 
 가사는 난해하다.
 
@@ -46,9 +44,11 @@ tags: Music
 
 마이클잭슨도 불렀다.
 
----
+## .
 
-### 가사 및 해석
+- 가사 및 해석
+
+~~~
 
 안에있는 나비들 안에있는 나비들
 
@@ -213,3 +213,5 @@ You give me butterflies inside
 내부와 나는
 
 Inside and I
+
+~~~

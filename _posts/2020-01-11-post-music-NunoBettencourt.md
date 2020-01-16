@@ -6,26 +6,23 @@ tags: Music
 
 ![](http://www3.pictures.zimbio.com/gi/Nuno+Bettencourt+Entertainment+Industry+Foundation+dQRrPaZbeeWl.jpg)
 
-# 누노 베텐코트 (Nuno Bettencourt)
+## .
+
+### 누노 베텐코트 (Nuno Bettencourt)
 
 ---
 
-드럼빼고 다 해먹는 
-
-Extreme의 기타리스트 Nuno.
-
+드럼빼고 다 해먹는 Extreme의 기타리스트 Nuno.
 뭔가 사기 캐릭터 같다...
-
-아래는 Extreme의 노래가 아닌
-
-Nuno 혼자 만든 앨범!
-
+아래는 Extreme의 노래가 아닌 Nuno 혼자 만든 앨범!
 개인적으로 익스트림 노래보다 좋다.
 
-# Favorite Songs
+## .
+
+### Favorite Songs
 ---
 
-## Ordinary Day
+- Ordinary Day
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XlojV4jUXtA" frameborder="0" allowfullscreen></iframe>
 
@@ -71,9 +68,9 @@ this prayer i sing for you
 
 ~~~
 
-## Population 1 - Nuno Bettencourt [Full Album]
+### Population 1 - Nuno Bettencourt [Full Album]
 
-### 1번(Flow) 트랙도 좋다.
+- 1번(Flow) 트랙도 좋다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BMrBXM4Qmck" frameborder="0" allowfullscreen></iframe>
 

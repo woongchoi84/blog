@@ -18,7 +18,6 @@ body {
 
 body, html {
   margin: 0;
-  padding: 0;
 }
 
 *:focus {
@@ -45,16 +44,18 @@ figure {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $color-blue;
-}
-
-h1 {
-  color: $color-red;
+  color: $color-black;
+  font-family: "NanumSquareB";
 }
 
 h3 {
-  color: $color-purple;
+  font-family: "NanumSquareB";
 }
+
+h2, h4, h5, h6 {
+  color: $color-white;
+}
+
 
 /**
  * `main` element
@@ -67,19 +68,17 @@ main {
  * Images
  */
 img {
-  max-width: 50%;
+  max-width: 60%;
   vertical-align: middle;
   horizontal-align: middle;
 
-  @include themed() {
-      background-color: $color-gray;
-  }
 }
 
 /**
  * Figures
  */
 figure > img {
+  max-width: 60%;
   display: block;
 }
 
@@ -94,12 +93,8 @@ ul, ol {
   margin-left: $spacing-unit;
 }
 
-ul {
-  color: $color-ulist;
-}
-
 li {
-  padding-left: 10px; 
+  padding-left: 2px; 
   > ul,
   > ol {
     margin-bottom: 0;
@@ -107,7 +102,7 @@ li {
 }
 
 video {
-  width: 100%;
+  width: 60%;
   border-radius: 0.3em;
 }
 
@@ -116,8 +111,8 @@ video {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
-  margin-top: 1em;
-  margin-bottom: 0.4em;
+  margin-top: 0em;
+  margin-bottom: 0.0em;
   text-align: left;
 }
 
@@ -125,14 +120,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $color-orange;
+  font-family: "Nanum Myeongjo";
+  font-weight: 400;
+  color: $color-blue;
   text-decoration: none;
 
   &:hover {
     @include themed() {
-       color: t('foreground-color');
+       text-decoration: underline;
     }
-    text-decoration: underline;
   }
 
   .social-media-list &:hover {
@@ -153,14 +149,18 @@ blockquote {
         color: t('background-color');
   }
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
+  letter-spacing: 0px;
 
   > :last-child {
     margin-bottom: 0;
   }
-}
 
+  margin-left: -0em;
+  padding-left: 10px;
+
+  border-left:5px solid $color-black;
+  background-color: $color-gray;
+}
 
 
 /**
@@ -169,10 +169,9 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  @include relative-font-size(1.0000);
   border-radius: 0.3em;
   @include themed() {
-     background-color: $color-background-dark;
+     background-color: $color-gray;
      color: $color-foreground;
   font-family: $syntax-font-family;
   font-style: normal;
@@ -181,9 +180,15 @@ code {
 
 code {
   padding: 1px 5px;
+  @include themed() {
+     color: black;
+  }
 }
 
 pre {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: lighten($color-black, 85%) 0.5px solid;
   padding: 8px 12px;
   overflow-x: auto;
   > code {
