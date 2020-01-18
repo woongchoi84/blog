@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "[Linux] Bash Shell 기반 리눅스에서 폴더 이동할 때마다 내용 리스트업하기"
+title: "Bash Shell 기반 리눅스에서 폴더 이동할 때마다 내용 리스트업하기"
 tags: Linux Setup
 description: "이건 진짜 유용한 정보다!"
 ---
 
-## .
 
 ### .bashrc 파일 수정
----
+
 
 - 아래 문구 추가
 
@@ -29,10 +28,9 @@ cd		.
 
 - 그다음 `ls` 커맨드로 현재 폴더의 내용을 화면에 리스트업 해준다.
 
-## .
 
 ### bash의 파라미터 처리
----
+
 
 - $#: 			the number of arguments, not counting $0
 - $@: 			all positional parameters except $0
@@ -40,10 +38,9 @@ cd		.
 - $0: 			the first positional parameter, equivalent to argv[0] in C
 - $1 ... $9: 	the argument list elements from 1 to 9
 
-## .
 
 ### xxxrc 파일이란?
----
+
 
 - "runtime configuration"
 - "run control"

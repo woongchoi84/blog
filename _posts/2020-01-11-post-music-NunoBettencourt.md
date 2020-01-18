@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "[Music] 누노 베텐코트 (Nuno Bettencourt) - 기타리스트, 베이시스트, 키보디스트, 작곡가, 보컬"
+title: "누노 베텐코트 (Nuno Bettencourt) - 기타리스트, 베이시스트, 키보디스트, 작곡가, 보컬"
 tags: Music
 ---
 
 ![](http://www3.pictures.zimbio.com/gi/Nuno+Bettencourt+Entertainment+Industry+Foundation+dQRrPaZbeeWl.jpg)
 
-## .
 
 ### 누노 베텐코트 (Nuno Bettencourt)
 
@@ -17,7 +16,6 @@ tags: Music
 아래는 Extreme의 노래가 아닌 Nuno 혼자 만든 앨범!
 개인적으로 익스트림 노래보다 좋다.
 
-## .
 
 ### Favorite Songs
 ---

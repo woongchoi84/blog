@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Productive] GitHub Clone 할 때 폴더 째 혹은 내용물만 가져오기"
+title: "GitHub Clone 할 때 폴더 째 혹은 내용물만 가져오기"
 tags: Productive Git
 ---
 
@@ -17,7 +17,6 @@ $>git clone repository
 
 이렇게 하면 Repository이름의 폴더가 `git clone`을 실행한 `Path`로 복사된다.
 
-## .
 
 ### 레포지토리 내용물만 가져오기
 

@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "[Linux] CentOS: Xlib extension RANDR mission on display"
+title: "CentOS: Xlib extension RANDR mission on display"
 tags: Linux Debug
 ---
 
 ![](https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_1280.jpg)
 
-## .
 
 ### Xlib: extension "RANDR" missing on display 에러
 ---

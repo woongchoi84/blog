@@ -48,15 +48,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "NanumSquareB";
 }
 
-h3 {
-  font-family: "NanumSquareB";
-}
-
-h2, h4, h5, h6 {
-  color: $color-white;
-}
-
-
 /**
  * `main` element
  */
@@ -122,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   font-family: "Nanum Myeongjo";
   font-weight: 400;
-  color: $color-blue;
+  color: $color-black;
   text-decoration: none;
 
   &:hover {

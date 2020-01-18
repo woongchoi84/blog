@@ -1,15 +1,11 @@
 ---
 layout: post
-title: "[Git] GitHub 사용법 (for Linux)"
+title: "GitHub 사용법 (for Linux)"
 tags: Git
 description: "깃허브는 분산 버전 관리 툴인 깃을 사용하는 프로젝트를 지원하는 웹호스팅 서비스이다. - 위키백과 -"
 ---
 
-## .
-
 ### Overall Contents
-
----
 
 1. https://github.com/ 에서 계정 만들기
 
@@ -23,21 +19,15 @@ description: "깃허브는 분산 버전 관리 툴인 깃을 사용하는 프�
 
 6. 추가 사항!
 
-## .
 
 ### 1. https://github.com/ 에서 계정 만들기  
-
----
 
 -  [https://github.com/](https://github.com/) 
 
 -  회원가입: Sign In - 로그인, Sign Up - 회원가입
 
-## .
 
 ### 2. 사이트에서 저장소 (리포지토리, repository) 만들기
-
----
 
 -  사이트 화면에서 Repositories 옆에 New 버튼 클릭
 
@@ -55,12 +45,7 @@ description: "깃허브는 분산 버전 관리 툴인 깃을 사용하는 프�
 
 
 
-
-## .
-
 ### 3. 클라이언트 (리눅스) 에서 내 저장소와 연결 정보 만들기
-
----
 
 -  Git 설치 (Install)
 
@@ -102,12 +87,8 @@ git remote add origin https://github.com/woongchoi84/test
 뒤에서 설명할 `git push` 혹은 `git pull` 이 안되는 경우 리눅스 `tree` 명령어를 통해 불필요한 `.git` 폴더의 유무를 체크해보자!
 
 
-## .
 
 ### 4. 저장소에 파일 저장하기 (upload)
-
----
-
 
 
 ```console
@@ -123,11 +104,8 @@ git push -u origin master
 `git push` : 이 명령어를 통해 실제로 업로드
 
 
-## .
-
 ### 5. 저장소에서 파일 내려받기 (download)
 
----
 
 -  첫번째 방법: git clone
 
@@ -162,11 +140,9 @@ git pull
 
 작업 중인 경로에 가서 위 명령어를 치면 `.git` 폴더의 내용을 기반으로 저장소와 내 로컬 (리눅스) 간의 연결 정보를 파악하여 저장소에 있는 최신 코드로 내 로컬 파일들을 업데이트한다.
 
-## .
 
 ### 6. 추가 사항!
 
----
 
 
 -  추가 사항을 넣은 이유는 다음과 같은 상황 때문이다.

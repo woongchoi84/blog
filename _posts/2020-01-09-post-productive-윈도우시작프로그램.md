@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "[Productive] 윈도우 10 시작프로그램 설정"
+title: "윈도우 10 시작프로그램 설정"
 tags: Productive Windows
 ---
 
 ![](https://cdn.pixabay.com/photo/2016/07/22/20/51/windows-10-1535765_1280.jpg)
 
-## .
 
 ### 컴퓨터 부팅 후 매번 켜야하는 프로그램이 있다면?
 ---

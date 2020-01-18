@@ -28,7 +28,7 @@
 }
 
 .site-title {
-  font-family: "NanumSquareEB";
+  font-family: "Nanum Pen Script";
   @include relative-font-size(1.825);
   font-weight: 400;
   margin-bottom: 0;
@@ -64,8 +64,8 @@
    margin-bottom: 1em;
    text-align: left;
    min-height: 72px;
-   font-family: "NanumSquare";
-   font-style: italic;
+   font-family: "Nanum Pen Script";
+   color: gray;
    & > .author-avatar {
      float: left;
      white-space: pre-line;
@@ -82,19 +82,22 @@
 
 
 .post-title {
-   font-family: "NanumSquareEB";
+   font-family: "NanumSquareB";
+   margin-bottom: 4px;
+    @include relative-font-size(1.500);
     @include themed() {
-       color: $color-red;
+       color: $color-black;
     }
     text-align: left;
 }
 
 .post-description {
   margin-top: 1em;
-  font-family: "NanumSquareB";
+  font-family: "Nanum Myeongjo";
+  font-weight: 700;
   font-size: $base-font-size;
   @include themed() {
-     color: $color-blue;
+     color: $color-black;
   }
   white-space: nowrap;
   overflow: hidden;
@@ -103,7 +106,7 @@
   margin-bottom: 1em;
 
   & > svg {
-    color: $color-blue;
+    color: $color-black;
     margin-right: 0.6em;
     margin-bottom: -1px;
   }
@@ -132,6 +135,12 @@
     margin-top: 1em;
     margin-left: 0.5em;
   }
+  
+  h3 {
+    font-family: "NanumSquareB";
+    margin-top: 2.5em;
+    margin-bottom: 0em;
+  }
 
   strong {
     @include themed() {
@@ -145,15 +154,16 @@
   }
 
   ol > li {
-    margin-left: 0.5em;
+    margin-left: 2.5em;
     text-align: left;
     margin-bottom: 0.3em;
   }
 
   ul > li {
+	font-family: "NanumSquare";
     margin-left: 0.5em;
     text-align: left;
-    margin-bottom: 0.3em;
+    margin-top: 0.0em;
     @include themed() {
        color: t('list-primary');
     }
@@ -227,12 +237,12 @@
 }
 
 .post-link-wrapper {
-   font-family: "NanumSquareEB";
+   font-family: "Nanum Myeongjo";
    margin-bottom: 1.1em;
    & > .post-link {
-     font-family: "NanumSquareEB";
-     font-size: $base-font-size;
-     font-size: $post-link-font-size;
+     font-family: "Nanum Myeongjo";
+     font-weight: 700;
+     font-size: $base-font-size * 1.2;
    }
 
    & > .post-meta {
@@ -253,8 +263,8 @@
  }
 
 .tag, .tag-cloud > a {
-  font-family: "NanumSquareB";
-  font-size: $small-font-size;
+  font-family: "NanumSquare";
+  font-size: $small-font-size *0.8 ;
   color: $color-tag;
   @include themed() {
      background-color: t('background-color');
@@ -262,7 +272,7 @@
   padding: 0.3em 0.6em;
   border-radius: 0.3em;
   &:hover {
-  	font-family: "NanumSquareB";
+  	font-family: "NanumSquare";
     text-decoration: none;
     color: lighten($color-tag, 20%) !important;
     @include themed() {

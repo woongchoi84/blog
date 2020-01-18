@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "[Music] 오지 오스본 (Ozzy Osbourne) - 2020 신보 (엘튼존 피처링)"
+title: "오지 오스본 (Ozzy Osbourne) - 2020 신보 (엘튼존 피처링)"
 tags: Music
 ---
 
 ![](http://fetch.rigvedawiki.net/f/_cache/fetchfile/d/da/dac12c44e6b9c1eb7ea5848250bd8775.jpeg)
 
-## .
 
 ### 오지 오스본 (Ozzy Osbourne)
 
@@ -35,7 +34,6 @@ tags: Music
 
 ---
 
-## .
 
 ### Release Song
 

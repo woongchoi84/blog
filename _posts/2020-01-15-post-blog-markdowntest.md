@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Blog] Markdown & Option Test"
+title: "Markdown & Option Test"
 description: "Hello World!!!"
 tags: Blog
 ---

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "[Linux] 우분투 관련 디스플레이 문제 해결방법"
+title: "우분투 관련 디스플레이 문제 해결방법"
 tags: Linux Debug
 ---
 
 ![](https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_1280.jpg)
 
-## .
 
 ### Ubuntu (Host)에서의 문제 해결
----
+
 
 - gVIM 실행 시 E233(?) 에러
 
@@ -22,10 +21,9 @@ $sudo apt --purge autoremove nvidia*
 $sudo ubuntu-drivers autoinstall
 ```
 
-## .
 
 ### Window (Client)에서의 문제 해결
----
+
 
 - SSH Display 문제
 
@@ -33,7 +31,6 @@ $sudo ubuntu-drivers autoinstall
 
 위의 왼쪽 그림처럼 putty 설정
 
-## .
 
 ### 주피터 노트북 (or 랩) 환경 구성
 

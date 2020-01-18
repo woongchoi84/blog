@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "[Music] 플로트리(Floetry) - Live가 완벽한 R&B 여성 듀오"
+title: "플로트리(Floetry) - Live가 완벽한 R&B 여성 듀오"
 tags: Music
 ---
 
 ![](https://i.ytimg.com/vi/pkb2mvw1Hcw/hqdefault.jpg)
 
-## .
 
 ### 플로트리 (Floetry)
 
@@ -18,7 +17,6 @@ tags: Music
 
 이 듀오는 영국 런던의 농구장에서 1994년경에 만났다고 한다.
 
-## .
 
 ### Favorite Songs
 ---
@@ -44,7 +42,6 @@ tags: Music
 
 마이클잭슨도 불렀다.
 
-## .
 
 - 가사 및 해석
 

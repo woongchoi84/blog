@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] Django: Django로 홈페이지를 만들어보자 #1"
+title: "Django: Django로 홈페이지를 만들어보자 #1"
 tags: Python Crawling
 ---
 

@@ -1,15 +1,13 @@
 ---
 layout: post
-title: "[Python] Window-Sub-System for Linux (WSL)에서 파이썬(Python) 기반 파이어폭스(Firefox) 웹 크롤링(crawling)"
+title: "Window-Sub-System for Linux (WSL)에서 파이썬(Python) 기반 파이어폭스(Firefox) 웹 크롤링(crawling)"
 tags: Python Crawling
 ---
 
 ![](https://cdn.pixabay.com/photo/2017/07/25/22/54/office-2539844_1280.jpg)
 
-## .
-
 ### WSL + 최신 버전 FireFox 에서 문제일으킴
----
+
 
 2020년 1월 기준 WSL 기반 개발환경에는,
 최신 버전의 파이어폭스 (FireFox)가 문제를 일으키는듯하다.
@@ -52,10 +50,9 @@ chmod +x bug_fix.sh
 
 (2020년 1월 4일 기준)
 
-## .
 
 ### Additional Contents
----
+
 
 WSL에서는 크롬브라우저(Chrome) 설치에 실패해서 아래 예제와 같이 selenium + FireFox Web Driver를 통해 파이썬 크롤링이 가능하다.
 
@@ -63,7 +60,6 @@ WSL에서는 크롬브라우저(Chrome) 설치에 실패해서 아래 예제와 
 
 자세한 내용은 위 WSL 웹크롤링 링크 참조!!!
 
-## .
 
 빠른 시일내로 마이크로소프트(Microsoft)에서 WSL2를 릴리즈하길 바란다.
 

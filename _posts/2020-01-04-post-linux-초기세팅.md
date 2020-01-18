@@ -1,16 +1,15 @@
 ---
 layout: post
-title: "[Linux] 리눅스 초기 설정"
+title: "리눅스 초기 설정"
 tags: Linux Setup
 description: "WSL or Ubuntu 사용자를 위한 가이드이다."
 ---
 
 ![](https://cdn.pixabay.com/photo/2013/07/12/16/59/linux-151619_1280.png)
 
-## .
 
 ### .bashrc 설정
----
+
 
 원본 보존을 위해 `.bashrc` 파일 마지막 줄에 아래 문구 추가
 
@@ -39,10 +38,9 @@ cd		.
 - alias : 리눅스 터미널에서 짧은 명령으로 커맨드를 실행하기 위한 옵션
 - function : 폴더 이동 시 해당 폴더 내 내용 확인을 리스트 업 하기 위한 함수
 
-## .
 
 ### .vimrc 설정
----
+
 
 ```console
 "==================================================

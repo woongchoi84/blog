@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Linux] WSL (Windows-Subsystem-for-Linux) 기반 개발 환경 구축 : 01 (Not Completed)"
+title: "WSL (Windows-Subsystem-for-Linux) 기반 개발 환경 구축 : 01 (Not Completed)"
 tags: Linux Setup WSL
 ---
 

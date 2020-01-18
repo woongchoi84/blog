@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "[Linux] 우분투 18.04 LTS 데스크탑 설정"
+title: "우분투 18.04 LTS 데스크탑 설정"
 tags: Linux Setup
 ---
 
 ![](https://cdn.pixabay.com/photo/2013/07/12/14/08/keyboard-147827_1280.png)
 
-## .
 
 ### 기본 세팅(WSL, Ubuntu 공통)
----
+
 
 - Git 설치 및 autosetup 스크립트 clone
 
@@ -19,10 +18,9 @@ $sudo apt-get install git
 $git clone https://github.com/woongchoi84/setup
 ```
 
-## .
 
 ### 개발환경에 맞는 ./autosetup.bsh 실행
----
+
 
 - jekyllSetup: 블로그용 지킬 설치
 - wslSetup: WSL기반 TensorFlow, Python 개발 환경
@@ -40,10 +38,9 @@ $./autosetup.bsh
 `레포지토리는 그냥 오리지널 버전으로...` 다음 카카오 레포지토리 주소가 또 바뀌었다.
 속도 차이 얼마 안나니 그냥 오리지널 버전 쓰는게 편한것 같다.
 
-## .
 
 ### 우분투 서버 (w/ GPU)
----
+
 
 - 드라이버 설치
 
@@ -65,20 +62,18 @@ gvim 같은 것 실행하면 display error 뿌린다.
 
 기본 설정 (tensorflow, jekyll 등) 설치 후 드라이버 설정 잡는게 좋겠다.
 
-## .
 
 ### 기억해야할 것들
----
+
 
 - 설치는 영문버전으로
 
 이래야 디버깅할때 구글링이 가능하다.
 
 
-## .
 
 ### 추가로 해야할 사항들...
----
+
 
 - SSH Display 문제 해결
 
